@@ -53,7 +53,7 @@ Using the Game Engine and the Map Maker, we created our very own RPG.
 - [Game.zip](http://www.cs.unc.edu/Research/assist/et/projects/RPG/Game.zip) (76.8 MB): Download to play game.  Includes maps, sounds, and game & map editor executables (+fmod.dll).
 - [Source.zip](http://www.cs.unc.edu/Research/assist/et/projects/RPG/Source.zip) (249 KB) : Includes source code for both game engine & map editor, including FMOD headers, .lib, & .dll.
 - [VB Runtime files](http://www.cs.unc.edu/Research/assist/et/projects/RPG/VB.exe) (1.18 MB): Includes Visual Basic runtime files needed to use Map Maker.
-h3: (Note from brogar2000
+### (Note from brogar2000
 All 3 resources from the above links are included in this Github package.)
 ## Minimum System Requirements
 - CPU:   500 MHz
