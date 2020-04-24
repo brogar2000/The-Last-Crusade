@@ -7,13 +7,13 @@ Patrick Dwyer & Peter S. VanLund
 ## Purpose:
 To create a role-playing game without any visuals.
 ## Reason:
-We grew up playing RPG's.  There should be a Gaming Engine that reads out the events of the game instead of using text or visuals to display the actions.  In order to do this we created a Game Engine and a Map Maker.
+We grew up playing RPG's. There should be a Gaming Engine that reads out the events of the game instead of using text or visuals to display the actions.  In order to do this we created a Game Engine and a Map Maker.
 ## Gaming Engine:
-We based our RPG game engine off of text-based Role-Playing Games.  However, our engine does not print to the screen the actions that are taking place.  It simply reads out the events as they occur.  Therefore, people that have the ability to hear can easily play the game.  The Engine is a basically a huge state machine.  It reads in the user input and processes their action and acts accordingly.  However, our Game Engine only works on maps created in our Map Maker.
+We based our RPG game engine off of text-based Role-Playing Games.  However, our engine does not print to the screen the actions that are taking place.  It simply reads out the events as they occur.  Therefore, people that have the ability to hear can easily play the game.  The Engine is basically a huge state machine.  It reads in the user input and processes their action and acts accordingly.  However, our Game Engine only works on maps created in our Map Maker.
 ## Map Maker:
 Our Map Maker helps create maps that the Game Engine can read in and set up for the user to play.  The Map Maker allows for a user to create different weapons, armor, items, creatures, friends, vendors, and even leprechauns.  Unfortunately, our Map Maker is not accessible for the visually impaired.  However, the Map Maker part of our project ensures that anyone who creates a map can easily play it using our Game Engine.  This fact makes are game easily extensible.  You can create an unlimited number of levels to play with characters and items that you name and give stats to.  You can even put in your own music.
 ## Game Play:
-- The user is a character that has strength, defense, hit points, gold, potion, and an item list.
+- The user is a character that has strength, defense, hit points, gold, potions, and an item list.
 - There are five types of items: weapons, armor, gold, potion, and special items.  Weapons will increase your strength.  Strength is used to determine how much you attack an enemy for.  Armor will increase your defense.  Defense is the amount you defend for in combat.  Gold is used to purchase items from vendors.  Your hit points are your health or life.  When you have zero hit points, you die.  Using a potion will add some health to you after you have been attacked.  The item list holds special items.  In the Map Maker, you can set certain locations to be locked unless a user has a certain item.  A special item could be a "key" that the user finds.  All items have a name sound and an action sound.  The name sound is read when you encounter that item.  The action sound is played when you use that item.
 - There are four types of characters: enemies, friends, vendors, and leprechauns.  Enemies have strength, defense, hit points, runaway percentage, and an item list.  You interact with these characters by fighting or running away from them.  If you defeat an enemy, you will get the items that are in the enemy’s item list.  Friends are characters that will give you advice or items if you choose to talk to them.  Vendors are characters that will sell you items for gold.  Their strength value is used to determine how good their prices are for weapons and armor.  Their defense value is used to determine how good their prices are for potions.  Their item list is used to show what items they have for sale.  Leprechauns are special characters that you play a gambling game with to win gold.  All characters have a name sound and an action sound.  The name sound is read when you encounter that character.  The action sound is different for each character.
 - Interaction with an enemy.  When you encounter an enemy, the game will ask you if you choose to run away.  If you succeed you will return to the previous location.  Combat is turn based.  The enemy will attack and then you will have the chance to respond.  If you fail to run away, the enemy will attack you.  To figure out how much an attack hit for, the Game Engine gets a random number from the first character's strength to two times that character's strength.  You then subtract the second character's defense from that random number.  The action sound for the enemy is the sound that is played when the enemy attacks you.  Your attack will be the action sound of the weapon that you currently have equipped.
@@ -91,7 +91,7 @@ All 3 resources from the above links are included in this Github package.)
   - Black Talon 8
   - Small Sword 10
  - Armor
-  - Wooden Shield 2
+  - Wooden Shield 2
   - Small Shield 3
   - Shield 5
   - Strong Shield 7
@@ -100,7 +100,7 @@ All 3 resources from the above links are included in this Github package.)
   - Pot of Gold 250
 - Level 2: The Graveyard
  - Enemies
-  - Bat
+  - Bat
   - Skeleton
   - Zombie
   - Werewolf
@@ -115,13 +115,13 @@ All 3 resources from the above links are included in this Github package.)
   - Deadly Discounts
   - Death Dealers
  - Weapons
-  - Small Sword 10
+  - Small Sword 10
   - Sword 13
   - Long Sword 15
   - Death Blade 18
   - Small Axe 20
  - Armor
-  - Weak Armor 10
+  - Weak Armor 10
   - Light Armor 12
   - Basic Armor 14
   - Medium Armor 16
@@ -132,7 +132,7 @@ All 3 resources from the above links are included in this Github package.)
   - Undead Elixir
 - Level 3: The Castle
  - Enemies
-  - Guard
+  - Guard
   - Swordsman
   - Griffin
   - Silver Knight
@@ -146,7 +146,7 @@ All 3 resources from the above links are included in this Github package.)
   - Knight's Sword 40
   - Royal Blade 50
  - Armor
-  - Guard's Armor 45
+  - Guard's Armor 45
   - Swordsman's Armor 50
   - Knight's Armor 60
   - Royal Armor 75
