@@ -1,0 +1,9 @@
+frmMain = 22, 1, 763, 693, C, 22, 10, 573, 669, C
+TypeDef = 95, 154, 934, 744, C
+Character = 46, 125, 876, 715, C
+Item = 0, 0, 905, 590, C
+ItemPercent = 0, 0, 830, 590, C
+MusicBoolean = 22, 29, 852, 619, C
+NPCPercent = 176, 232, 1006, 822, C
+ItemBoolean = 44, 58, 874, 648, C
+Sound = 139, 250, 969, 840, C
