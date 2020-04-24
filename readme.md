@@ -51,8 +51,8 @@ Using the Game Engine and the Map Maker, we created our very own RPG.
 "In a time of great despair, King Vaisara called for the finest warriors of the land. He sent them on a dangerous journey. Their mission was to kill the evil King Lasarus. None of those warriors have returned. It is now, in the darkest hour of the Vaisara Kingdom, that King Lasarus must be stopped. King Vaisara has requested that you bring peace back to this kingdom. Your journey will begin in the village of Cascata. Travel through the graveyard and reach Castle Lasarus. There you must kill King Lasarus. The fate of the Vaisara Kingdom is in your hands."
 ## Download
 - [Game.zip](http://www.cs.unc.edu/Research/assist/et/projects/RPG/Game.zip) (76.8 MB): Download to play game.  Includes maps, sounds, and game & map editor executables (+fmod.dll).
-- [Source.zip](http://www.cs.unc.edu/Research/assist/et/projects/RPG/Source.zip (249 KB) : Includes source code for both game engine & map editor, including FMOD headers, .lib, & .dll.
-- [VB Runtime files])http://www.cs.unc.edu/Research/assist/et/projects/RPG/VB.exe (1.18 MB): Includes Visual Basic runtime files needed to use Map Maker.
+- [Source.zip](http://www.cs.unc.edu/Research/assist/et/projects/RPG/Source.zip) (249 KB) : Includes source code for both game engine & map editor, including FMOD headers, .lib, & .dll.
+- [VB Runtime files](http://www.cs.unc.edu/Research/assist/et/projects/RPG/VB.exe) (1.18 MB): Includes Visual Basic runtime files needed to use Map Maker.
 h3: (Note from brogar2000
 All 3 resources from the above links are included in this Github package.)
 ## Minimum System Requirements
